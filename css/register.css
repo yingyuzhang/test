@@ -1,0 +1,125 @@
+#main{
+
+    background:#efefef;
+}
+footer,section{
+    width:1000px;
+    margin:0 auto;
+
+}
+header{
+    width:1100px;
+    margin:0 auto;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+header>span{
+    float:left;
+    width:500px;
+    height:80px;
+    background:url(../img/sprite.png) no-repeat 0 0;
+}
+header>p{
+    float:right;
+    font-size:20px;
+    color:#666;
+    height:80px;
+    line-height:80px;
+    margin-right:50px;
+
+}
+header>p>a{
+    color:#CA5252;
+    cursor:pointer;
+}
+header>p>a:hover{
+    color:#AD4747;
+}
+section{
+    height:800px;
+    background:#fff;
+    border-radius:5px;
+   border-shadow: 2px;
+
+}
+section p.middle_top{
+    padding-top:50px;
+    font-size:27px;
+    color:#CA6767;
+    padding-bottom:60px;
+    padding-left:70px;
+
+}
+.container{
+    font-size:20px;
+    color:#333;
+}
+.container div.form-group input{
+width:350px;
+    height:50px;
+
+
+}
+label.one2{
+    line-height:50px;
+    font-size:16px;
+    color:#666;
+}
+label.one1{
+    line-height:50px;
+    font-size:12px;
+    color:#FA5B5B;
+}
+label.one1>b{
+    display:inline-block;
+    width:14px;
+    height:14px;
+    background:url(../img/sprite.png) no-repeat -65px -102px;
+    margin-right:5px;
+    margin-bottom:-4px;
+}
+label.one1>a.good{
+    display:inline-block;
+    width:14px;
+    height:14px;
+    background:url(../img/sprite.png) no-repeat -30px -102px;
+    margin-right:5px;
+    margin-bottom:-4px;
+}
+select{
+    height:50px !important;
+    margin-left:30px;
+    width:125px !important;
+}
+#message1{
+    height:50px;
+    margin-left:30px;
+    width:125px;
+}
+#username{
+    width:220px;
+}
+#selectBox{
+    height:50px;
+}
+#message{
+    width:220px;
+}
+p>a{color:#B1B1B1;}
+p>a:hover{
+    color:#666;
+}
+#newC{
+    color:#4CB5FF;
+}
+footer{
+    padding-bottom:30px;
+}
+footer>dl{
+    text-align:center;
+    line-height:50px;
+}
+footer>dl>dd{
+    color:#B1B1B1;
+    padding-top:10px;
+}
